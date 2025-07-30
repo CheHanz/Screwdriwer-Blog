@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screwdriver Chronicles | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    <nav class="sticky-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.png" alt="Screwdriver Logo" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">History</a></li>
+                <li><a href="blog.html">Collection</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Share Your Screwdriver Passion</h1>
+            <p>Connect with fellow collectors and share your unique finds</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="contact-intro">
+            <h2>Expand Our Collection Together</h2>
+            <p>As a dedicated screwdriver collector and historian, I'm always seeking new additions to document and preserve. Whether you have a rare vintage set, an unusual modern design, or just an interesting story about a special screwdriver, I'd love to hear from you.</p>
+            <p>I frequently purchase unique screwdrivers for my collection and for review on this site. If you have tools to sell or would like me to feature your collection, please get in touch using the form below.</p>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Me Your Screwdriver Stories</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="collection">I have a collection to share</option>
+                        <option value="sale">I have screwdrivers to sell</option>
+                        <option value="question">I have a question</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="photos">Upload Photos (optional)</label>
+                    <input type="file" id="photos" name="photos" accept="image/*" multiple>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+        <section class="collection-guidelines">
+            <h2>What I'm Looking For</h2>
+            <ul class="guidelines-list">
+                <li><strong>Vintage sets:</strong> Pre-1960s complete sets in original cases</li>
+                <li><strong>Unusual materials:</strong> Bone, ivory, exotic wood handles</li>
+                <li><strong>Military issue:</strong> Especially WWII or Cold War era</li>
+                <li><strong>Artisan pieces:</strong> Handcrafted or artistically designed</li>
+                <li><strong>Prototypes:</strong> Experimental or one-off designs</li>
+                <li><strong>Branded tools:</strong> Company promotional sets</li>
+            </ul>
+            <p>Even if your screwdrivers don't fit these categories, I'd still love to see them! Every tool has a story worth preserving.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Screwdriver Chronicles. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">History</a>
+                <a href="blog.html">Collection</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
